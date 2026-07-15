@@ -25,7 +25,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter>
+      <BrowserRouter basename="/sanctuary-school/">
         <AuthProvider>
           <Routes>
             {/* Public */}

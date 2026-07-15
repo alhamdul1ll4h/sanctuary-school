@@ -5,6 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
+  base: '/sanctuary-school/', // <-- เพิ่มบรรทัดนี้ลงไป
   server: {
     host: "::",
     port: 8080,
